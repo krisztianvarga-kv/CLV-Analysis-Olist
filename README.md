@@ -42,7 +42,6 @@ To analyze Customer Lifetime Value (CLV), the Olist dataset was imported into a 
 3. **Imported CSV files** into PostgreSQL using pgAdmin
 4. **Verified data integrity** by checking row counts, missing values, and duplicates
 
-For full SQL scripts and detailed steps, see [`data_import.md`](data_import.md).
 
 
 
