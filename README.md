@@ -32,6 +32,17 @@ It includes:
 4. How does CLV vary by product category and customer segment?  
 5. What actionable insights can improve retention and revenue?
 
+## 📊 Database Setup
+
+To analyze Customer Lifetime Value (CLV), the Olist dataset was imported into a **PostgreSQL database**.
+
+### **Steps Taken:**
+1. **Created a PostgreSQL database** named `olist`
+2. **Defined table schemas** for `customers`, `orders`, `order_items`, `order_payments`, and other datasets
+3. **Imported CSV files** into PostgreSQL using pgAdmin
+4. **Verified data integrity** by checking row counts, missing values, and duplicates
+
+For full SQL scripts and detailed steps, see [`data_import.md`](data_import.md).
 
 
 
@@ -48,6 +59,7 @@ It includes:
 - **SQL** – Data extraction and transformation  
 - **Power BI** – Data visualization
 - **GitHub** – Version control and project documentation
+- **PostgreSQL database** - Database
 
 
 
